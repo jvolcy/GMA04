@@ -18,7 +18,17 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"oLazarusLeft","order":4,"path":"objects/oLazarusLeft/oLazarusLeft.yy",},
+    {"name":"sLazarusJumpRight","order":4,"path":"sprites/sLazarusJumpRight/sLazarusJumpRight.yy",},
+    {"name":"oLazarusJumpRight","order":3,"path":"objects/oLazarusJumpRight/oLazarusJumpRight.yy",},
+    {"name":"oBoxMaker","order":16,"path":"objects/oBoxMaker/oBoxMaker.yy",},
+    {"name":"sLazarusRight","order":6,"path":"sprites/sLazarusRight/sLazarusRight.yy",},
+    {"name":"oLazarusRight","order":5,"path":"objects/oLazarusRight/oLazarusRight.yy",},
+    {"name":"oLazarusJumpLeft","order":2,"path":"objects/oLazarusJumpLeft/oLazarusJumpLeft.yy",},
     {"name":"sBackground","order":2,"path":"sprites/sBackground/sBackground.yy",},
+    {"name":"sLazarusLeft","order":5,"path":"sprites/sLazarusLeft/sLazarusLeft.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"oBoxStone","order":17,"path":"objects/oBoxStone/oBoxStone.yy",},
+    {"name":"sLazarusJumpLeft","order":3,"path":"sprites/sLazarusJumpLeft/sLazarusJumpLeft.yy",},
   ],
 }
