@@ -44,7 +44,7 @@ function dropBox()
 	//create a new next box
 	_activeBox = _nextBox;
 	_activeBox.x = oLazarus.x;
-	_activeBox.y = -40;
+	_activeBox.y = 40;
 	
 	_nextBox = createBox(0, 439);
 	
