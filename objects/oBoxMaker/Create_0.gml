@@ -3,53 +3,58 @@
 randomize();
 
 show_debug_message("oBoxMaker:Create()");
-_nextBox = noone;
-_activeBox = noone;
+
+//we will randomly generate a number from 0 to 3 to represent the "next box".
+//The numbers will represent the 4 box types as follows:
+//0 = Cardboard Box
+//1 = Wood Box
+//2 = Metal Box
+//3 = Stone Box
+
+//randomly initialize the next box
+_nextBox = irandom(3);
 
 
-function createBox(xPos, yPos)
+function newBox()
 {
-	show_debug_message("createBox()");
-	i = irandom(3);
-	if (i == 0)
+	if (_nextBox == 0)
 	{
-		newBox = instance_create_layer(xPos, yPos, "layer_boxes", oBoxCardboard);
+		instance_create_layer(inst_Lazarus.x, -40, "layer_boxes", oBoxCardboardFalling);
 	}
-	else if (i == 1)
+	else if (_nextBox == 1)
 	{
-		newBox = instance_create_layer(xPos, yPos, "layer_boxes", oBoxWood);
+		instance_create_layer(inst_Lazarus.x, -40, "layer_boxes", oBoxWoodFalling);
 	}
-	else if (i == 2)
+	else if (_nextBox == 2)
 	{
-		newBox = instance_create_layer(xPos, yPos, "layer_boxes", oBoxMetal);
+		instance_create_layer(inst_Lazarus.x, -40, "layer_boxes", oBoxMetalFalling);
 	}
-	else if (i == 3)
+	else if (_nextBox == 3)
 	{
-		newBox = instance_create_layer(xPos, yPos, "layer_boxes", oBoxStone);
-	}
-	else
-	{
-		show_debug_message("newBox is NULL.");
-		newBox = noone;
+		instance_create_layer(inst_Lazarus.x, -40, "layer_boxes", oBoxStoneFalling);
 	}
 	
-	return newBox;
-}
-
-
-
-function dropBox()
-{
-	//set the next box to be active
-	//create a new next box
-	_activeBox = _nextBox;
-	_activeBox.x = oLazarus.x;
-	_activeBox.y = 40;
+	_nextBox = irandom(3);
 	
-	_nextBox = createBox(0, 439);
+	if (_nextBox == 0)
+	{
+		oNextBox.sprite_index = sBoxCardboard;
+	}
+	else if (_nextBox == 1)
+	{
+		oNextBox.sprite_index = sBoxWood;
+	}
+	else if (_nextBox == 2)
+	{
+		oNextBox.sprite_index = sBoxMetal;
+	}
+	else if (_nextBox == 3)
+	{
+		oNextBox.sprite_index = sBoxStone;
+	}
 	
 }
-
+	
 
 
 
