@@ -26,7 +26,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "sBoxMetal",
     "path": "sprites/sBoxMetal/sBoxMetal.yy",

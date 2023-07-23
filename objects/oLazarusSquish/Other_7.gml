@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 
-instance_change(oBoxStoneRest, true);
-inst_BoxMaker.newBox();
+show_message("You're History!\nBetter Luck Next Time");
+game_restart();
 
 
 
