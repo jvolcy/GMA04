@@ -55,6 +55,7 @@
     {"id":{"name":"sBoxCardboard","path":"sprites/sBoxCardboard/sBoxCardboard.yy",},},
     {"id":{"name":"sBoxWood","path":"sprites/sBoxWood/sBoxWood.yy",},},
     {"id":{"name":"oLazarusJumpLeft","path":"objects/oLazarusJumpLeft/oLazarusJumpLeft.yy",},},
+    {"id":{"name":"sLazarusAfraid","path":"sprites/sLazarusAfraid/sLazarusAfraid.yy",},},
     {"id":{"name":"oBoxStoneRest","path":"objects/oBoxStoneRest/oBoxStoneRest.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sLazarusSquish","path":"sprites/sLazarusSquish/sLazarusSquish.yy",},},

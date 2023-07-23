@@ -10,8 +10,11 @@ if (!place_meeting(x, y+4, all))
 
 
 
-
-
+//Lazarus is afraid when he is trapped: no where to go.
+if (place_meeting(x-40, y, all) and place_meeting(x-40, y-40, all) and place_meeting(x+40, y, all) and place_meeting(x+40, y-40, all))
+{
+	sprite_index = sLazarusAfraid;
+}
 
 
 

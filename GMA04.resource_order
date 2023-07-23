@@ -38,6 +38,7 @@
     {"name":"sBoxCardboard","order":7,"path":"sprites/sBoxCardboard/sBoxCardboard.yy",},
     {"name":"sBoxWood","order":10,"path":"sprites/sBoxWood/sBoxWood.yy",},
     {"name":"oLazarusJumpLeft","order":2,"path":"objects/oLazarusJumpLeft/oLazarusJumpLeft.yy",},
+    {"name":"sLazarusAfraid","order":13,"path":"sprites/sLazarusAfraid/sLazarusAfraid.yy",},
     {"name":"oBoxStoneRest","order":9,"path":"objects/oBoxStoneRest/oBoxStoneRest.yy",},
     {"name":"sBackground","order":2,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"sLazarusSquish","order":12,"path":"sprites/sLazarusSquish/sLazarusSquish.yy",},
