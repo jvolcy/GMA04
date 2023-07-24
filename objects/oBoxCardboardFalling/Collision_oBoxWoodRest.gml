@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 instance_change(oBoxCardboardRest, true);
+y = yprevious;
 inst_BoxMaker.newBox();
 
 

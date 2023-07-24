@@ -3,6 +3,7 @@
 
 
 instance_change(oBoxStoneRest, true);
+y = yprevious;
 inst_BoxMaker.newBox();
 
 

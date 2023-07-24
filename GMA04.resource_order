@@ -29,6 +29,7 @@
     {"name":"oLazarusSquish","order":16,"path":"objects/oLazarusSquish/oLazarusSquish.yy",},
     {"name":"sBoxMetal","order":8,"path":"sprites/sBoxMetal/sBoxMetal.yy",},
     {"name":"oBoxMaker","order":7,"path":"objects/oBoxMaker/oBoxMaker.yy",},
+    {"name":"rTestRoom","order":1,"path":"rooms/rTestRoom/rTestRoom.yy",},
     {"name":"sNextBox","order":11,"path":"sprites/sNextBox/sNextBox.yy",},
     {"name":"oBoxWoodRest","order":10,"path":"objects/oBoxWoodRest/oBoxWoodRest.yy",},
     {"name":"sLazarusRight","order":6,"path":"sprites/sLazarusRight/sLazarusRight.yy",},
@@ -45,6 +46,8 @@
     {"name":"sLazarusLeft","order":5,"path":"sprites/sLazarusLeft/sLazarusLeft.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"oBoxMetalFalling","order":12,"path":"objects/oBoxMetalFalling/oBoxMetalFalling.yy",},
+    {"name":"sButton","order":14,"path":"sprites/sButton/sButton.yy",},
     {"name":"sLazarusJumpLeft","order":3,"path":"sprites/sLazarusJumpLeft/sLazarusJumpLeft.yy",},
+    {"name":"oButton","order":17,"path":"objects/oButton/oButton.yy",},
   ],
 }
